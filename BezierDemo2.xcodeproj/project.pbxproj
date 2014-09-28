@@ -12,6 +12,8 @@
 		690EAA4C19D812F000E6CAB6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 690EAA4B19D812F000E6CAB6 /* Images.xcassets */; };
 		690EAA4F19D812F000E6CAB6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 690EAA4D19D812F000E6CAB6 /* MainMenu.xib */; };
 		690EAA5B19D812F000E6CAB6 /* BezierDemo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 690EAA5A19D812F000E6CAB6 /* BezierDemo2Tests.m */; };
+		690EAA6619D8131900E6CAB6 /* BezierView.m in Sources */ = {isa = PBXBuildFile; fileRef = 690EAA6519D8131900E6CAB6 /* BezierView.m */; };
+		690EAA6819D8135400E6CAB6 /* IMG_6211 small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 690EAA6719D8135400E6CAB6 /* IMG_6211 small.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 		690EAA5419D812F000E6CAB6 /* BezierDemo2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BezierDemo2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		690EAA5919D812F000E6CAB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		690EAA5A19D812F000E6CAB6 /* BezierDemo2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BezierDemo2Tests.m; sourceTree = "<group>"; };
+		690EAA6419D8131900E6CAB6 /* BezierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierView.h; sourceTree = "<group>"; };
+		690EAA6519D8131900E6CAB6 /* BezierView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierView.m; sourceTree = "<group>"; };
+		690EAA6719D8135400E6CAB6 /* IMG_6211 small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_6211 small.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +83,9 @@
 			children = (
 				690EAA4819D812F000E6CAB6 /* AppDelegate.h */,
 				690EAA4919D812F000E6CAB6 /* AppDelegate.m */,
+				690EAA6419D8131900E6CAB6 /* BezierView.h */,
+				690EAA6519D8131900E6CAB6 /* BezierView.m */,
+				690EAA6719D8135400E6CAB6 /* IMG_6211 small.jpg */,
 				690EAA4B19D812F000E6CAB6 /* Images.xcassets */,
 				690EAA4D19D812F000E6CAB6 /* MainMenu.xib */,
 				690EAA4419D812F000E6CAB6 /* Supporting Files */,
@@ -191,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				690EAA6819D8135400E6CAB6 /* IMG_6211 small.jpg in Resources */,
 				690EAA4C19D812F000E6CAB6 /* Images.xcassets in Resources */,
 				690EAA4F19D812F000E6CAB6 /* MainMenu.xib in Resources */,
 			);
@@ -210,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				690EAA6619D8131900E6CAB6 /* BezierView.m in Sources */,
 				690EAA4A19D812F000E6CAB6 /* AppDelegate.m in Sources */,
 				690EAA4719D812F000E6CAB6 /* main.m in Sources */,
 			);
